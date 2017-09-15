@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017. Konstantins Lihacovs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<!--Array resources used for predefined categories and credential fields creation on user registration-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Predefined user categories: array of arrays[categoryName, imageName, fieldsArrayName]-->
+    <string-array name="predefined_categories" tools:ignore="MissingTranslation">
+        <item>@array/websites</item>
+        <item>@array/bank_accounts</item>
+        <item>@array/identity_documents</item>
+        <item>@array/crypto_currency</item>
+        <item>@array/credit_cards</item>
+    </string-array>
+
+    <string-array name="websites">
+        <item>@string/websites</item>
+        <item>ic_category_web_24px</item>
+        <item>website_fields</item>
+    </string-array>
+
+    <string-array name="email_accounts" tools:ignore="MissingTranslation,UnusedResources">
+        <item>@string/emails</item>
+        <item>ic_category_email_24px</item>
+        <item>email_fields</item>
+    </string-array>
+
+    <string-array name="crypto_currency" tools:ignore="MissingTranslation">
+        <item>@string/currency</item>
+        <item>ic_category_account_balance_wallet_24px</item>
+        <item>digital_money_fields</item>
+    </string-array>
+
+    <string-array name="bank_accounts">
+        <item>@string/bank_accounts</item>
+        <item>ic_category_account_balance_24px</item>
+        <item>bank_account_fields</item>
+    </string-array>
+
+    <string-array name="credit_cards">
+        <item>@string/credit_cards</item>
+        <item>ic_category_credit_card_24px</item>
+        <item>credit_card_fields</item>
+    </string-array>
+
+    <string-array name="identity_documents" tools:ignore="MissingTranslation">
+        <item>@string/documents</item>
+        <item>ic_category_description_24px</item>
+        <item>document_fields</item>
+    </string-array>
+
+    <string-array name="default_category" tools:ignore="UnusedResources">
+        <item>Default Category</item>
+        <item>ic_category_folder_24px</item>
+        <item>default_fields</item>
+    </string-array>
+
+
+    <!--Predefined fields for credentials in predefined categories-->
+    <string-array name="website_fields" tools:ignore="UnusedResources">
+        <item>@string/url_with_colon</item>
+        <item>@string/username_with_colon</item>
+        <item>@string/password_with_colon</item>
+        <item>@string/email_with_colon</item>
+        <item>@string/notes_with_colon</item>
+    </string-array>
+
+    <string-array name="email_fields" tools:ignore="UnusedResources">
+        <item>@string/email_with_colon</item>
+        <item>@string/password_with_colon</item>
+        <item>@string/type_with_colon</item>
+        <item>@string/type_with_colon</item>
+    </string-array>
+
+    <string-array name="digital_money_fields" tools:ignore="UnusedResources">
+        <item>@string/username_with_colon</item>
+        <item>@string/password_with_colon</item>
+        <item>@string/email_with_colon</item>
+        <item>@string/notes_with_colon</item>
+    </string-array>
+
+    <string-array name="bank_account_fields" tools:ignore="UnusedResources">
+        <item>@string/bank_name_with_colon</item>
+        <item>@string/account_type_with_colon</item>
+        <item>@string/password_with_colon</item>
+        <item>@string/account_number_with_colon</item>
+        <item>@string/swift_code_with_colon</item>
+        <item>@string/iban_number_with_colon</item>
+        <item>@string/pin_with_colon</item>
+        <item>@string/branch_address_with_colon</item>
+        <item>@string/branch_phone_with_colon</item>
+        <item>@string/notes_with_colon</item>
+    </string-array>
+
+    <string-array name="credit_card_fields" tools:ignore="UnusedResources">
+        <item>@string/name_on_card_with_colon</item>
+        <item>@string/type_with_colon</item>
+        <item>@string/number_with_colon</item>
+        <item>@string/security_code_with_colon</item>
+        <item>@string/start_date_with_colon</item>
+        <item>@string/expiration_date_with_colon</item>
+        <item>@string/notes_with_colon</item>
+    </string-array>
+
+    <string-array name="document_fields" tools:ignore="UnusedResources">
+        <item>@string/type_with_colon</item>
+        <item>@string/name_with_colon</item>
+        <item>@string/country_with_colon</item>
+        <item>@string/number_with_colon</item>
+        <item>@string/sex_number_with_colon</item>
+        <item>@string/nationality_with_colon</item>
+        <item>@string/issuing_authority_with_colon</item>
+        <item>@string/issued_date_with_colon</item>
+        <item>@string/expiration_date_with_colon</item>
+        <item>@string/notes_with_colon</item>
+    </string-array>
+
+    <string-array name="default_fields" tools:ignore="UnusedResources">
+        <item>@string/account_with_colon</item>
+        <item>@string/password_with_colon</item>
+        <item>@string/notes_with_colon</item>
+    </string-array>
+</resources>

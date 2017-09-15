@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2017. Konstantins Lihacovs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="about_app">О приложении</string>
+    <string name="account_with_colon">Аккаунт:</string>
+    <string name="add_category">Добавить категорию</string>
+    <string name="add_credential">Добавить запись</string>
+    <string name="add_field">Добавить поле</string>
+    <string name="already_registered">Зарегистрированны? Войти</string>
+    <string name="bank_accounts">Банковский счёт</string>
+    <string name="cancel">Отменить</string>
+    <string name="category">Категория</string>
+    <string name="category_icon_with_colon">Иконка категории:</string>
+    <string name="category_name_with_colon">Имя категории:</string>
+    <string name="category_with_colon">Категория:</string>
+    <string name="confirm_delete">"Хотите удалить "</string>
+    <string name="copied">Сохраннено в буфер</string>
+    <string name="copy_field">Копировать поле</string>
+    <string name="credential">Запись</string>
+    <string name="credential_name_with_colon">Имя записи:</string>
+    <string name="credit_cards">Кредитные карты</string>
+    <string name="delete_category">Удалить категорию</string>
+    <string name="delete_credential">Удалить запись</string>
+    <string name="delete_field">Удалить поле</string>
+    <string name="deleted">удалено</string>
+    <string name="documents">Документы</string>
+    <string name="edit_category">Изменить категорию</string>
+    <string name="email_with_colon">Э-почта:</string>
+    <string name="field">Поле</string>
+    <string name="enter_field_name">Название поля</string>
+    <string name="login">Войти</string>
+    <string name="logout_user">Выйти</string>
+    <string name="no">НЕТ</string>
+    <string name="password_with_colon">Пароль:</string>
+    <string name="register">Регистрация</string>
+    <string name="save">Сохранить</string>
+    <string name="yes">ДА</string>
+    <string name="currency">Крипто валюта</string>
+    <string name="emails">Э-почта</string>
+    <string name="not_registered">Нет аккаунта? Регистрация</string>
+    <string name="notes_with_colon">Заметки:</string>
+    <string name="websites">Вебсайты</string>
+    <string name="email_validation_error">Неправильный Эмаил</string>
+    <string name="password_validation_error">Пароль должен быть длинее 8 символов</string>
+    <string name="user_already_registered">Эмаил уже зарегистрирован</string>
+    <string name="user_registered">Пользователь зарегистрирован</string>
+    <string name="wrong_email_password">Неправильный эмаил или пароль</string>
+    <string name="default_category">Стандартная категория</string>
+    <string name="account_number_with_colon">Номер счета:</string>
+    <string name="account_type_with_colon">Тип счёта:</string>
+    <string name="bank_name_with_colon">Название банка:</string>
+    <string name="branch_address_with_colon">Адрес филиала:</string>
+    <string name="branch_phone_with_colon">Телефон филиала:</string>
+    <string name="click_back_again">Сново нажмите назад для выхода</string>
+    <string name="email_body">Ввведите сообщение</string>
+    <string name="country_with_colon">Страна:</string>
+    <string name="email_chooser_title">Послать Э-почту</string>
+    <string name="email_subject">Предложение</string>
+    <string name="expiration_date_with_colon">Срок действия:</string>
+    <string name="first_screen_tittle">Один пароль</string>
+    <string name="issued_date_with_colon">Дата выдачи:</string>
+    <string name="issuing_authority_with_colon">Орган выдачи:</string>
+    <string name="name_on_card_with_colon">Имя на карте:</string>
+    <string name="nationality_with_colon">Гражданство:</string>
+    <string name="name_with_colon">Имя:</string>
+    <string name="pin_with_colon">PIN:</string>
+    <string name="second_screen_tittle">Легко управлять</string>
+    <string name="security_code_with_colon">Код безопасности:</string>
+    <string name="start_date_with_colon">Дата выдачи:</string>
+    <string name="swift_code_with_colon">SWIFT код:</string>
+    <string name="third_screen_description">Надёжная криптография AES применяется к вашим данным. Информация хранится на вашем устройстве.</string>
+    <string name="type_with_colon">Тип:</string>
+    <string name="username_with_colon">Имя пользователя:</string>
+    <string name="zero_screen_tittle">Добро пожаловть в BeePass</string>
+    <string name="iban_number_with_colon">IBAN номер:</string>
+    <string name="number_with_colon">Номер:</string>
+    <string name="sex_number_with_colon">Пол:</string>
+    <string name="third_screen_tittle">Защита данных</string>
+    <string name="url_with_colon">URL:</string>
+    <string name="zero_screen_description">BeePass это менеджер паролей для хранения ваших конфиденциальных записей.</string>
+    <string name="second_screen_description">Легко добавлять и редактировать необходимые поля для категорий и учетных данных.</string>
+    <string name="first_screen_description">Не нужно запоминать все ваши пароли. Только один мастер-пароль!</string>
+    <string name="field_name_with_colon">Поле:</string>
+    <string name="about_enjoyed_app">Если вам понравилось это приложение, пожалуста оцените его. Спасибо.</string>
+    <string name="about_have_suggestions">У вас есть вопросы, предложения, нашли ошибки, или хотите помоч в тестировании или переводе? Напишите сообщение.</string>
+    <string name="about_app_functions">Хотите узнать больше о возможностях приложения?</string>
+</resources>

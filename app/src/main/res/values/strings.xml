@@ -1,0 +1,120 @@
+<!--
+  ~ Copyright (C) 2017. Konstantins Lihacovs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name" translatable="false">BeePass</string>
+    <string name="app_email" translatable="false">beepassapp@gmail.com</string>
+    <string name="app_creator" translatable="false">Konstantins Lihacovs</string>
+    <string name="app_version" translatable="false">(Version code)</string>
+    <string name="add_credential">Add credential</string>
+    <string name="add_category">Add category</string>
+    <string name="edit_category">Edit category</string>
+    <string name="add_field">Add field</string>
+    <string name="delete_credential">Delete credential</string>
+    <string name="delete_category">Delete category</string>
+    <string name="delete_field">Delete field</string>
+    <string name="copy_field">Copy field</string>
+    <string name="logout_user">Logout</string>
+    <string name="category">Category</string>
+    <string name="credential">Credential</string>
+    <string name="field">Field</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="deleted">deleted</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="about_app">About App</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="email_with_colon">Email:</string>
+    <string name="password_with_colon">Password:</string>
+    <string name="category_with_colon">Category:</string>
+    <string name="category_name_with_colon">Category name:</string>
+    <string name="category_icon_with_colon">Category icon:</string>
+    <string name="credential_name_with_colon">Credential name:</string>
+
+
+    <string name="email_validation_error">Email is not valid</string>
+    <string name="password_validation_error">Password must be more then 8 chars</string>
+    <string name="user_registered">User is registered</string>
+    <string name="user_already_registered">User email is already registered</string>
+    <string name="wrong_email_password">Wrong Email or Password</string>
+    <string name="confirm_delete">Are you sure to delete\u0020</string>
+    <string name="copied">copied to clipboard</string>
+    <string name="enter_field_name">Please enter a field name</string>
+    <string name="not_registered">No account? Register</string>
+    <string name="already_registered">Already registered? Login</string>
+    <string name="click_back_again">Please click back again to exit</string>
+
+    <string name="about_app_functions">Do you want to learn more about app functions?</string>
+    <string name="about_have_suggestions">Do you have any questions, suggestions, found bugs, or you want to help test or translate? Write me a message.</string>
+    <string name="about_enjoyed_app">If you enjoyed this application, please rate it. Thank you.</string>
+    <string name="email_subject">Suggestion to BeePass</string>
+    <string name="email_body">Enter your message here</string>
+    <string name="email_chooser_title">Send Email</string>
+
+    <!--Strings for predefined categories in arrays.xml-->
+    <string name="websites">Websites</string>
+    <string name="emails">Emails</string>
+    <string name="currency">Digital Currency</string>
+    <string name="bank_accounts">Bank Accounts</string>
+    <string name="credit_cards">Credit Cards</string>
+    <string name="documents">Documents</string>
+    <string name="default_category">Default Category</string>
+
+    <!--Strings for predefined fields in arrays.xml-->
+    <string name="url_with_colon">URL:</string>
+    <string name="username_with_colon">Username:</string>
+    <string name="account_with_colon">Account:</string>
+    <string name="notes_with_colon">Notes:</string>
+    <string name="type_with_colon">Type:</string>
+    <string name="field_name_with_colon">Field:</string>
+
+    <string name="bank_name_with_colon">Bank Name:</string>
+    <string name="account_type_with_colon">Account Type:</string>
+    <string name="account_number_with_colon">Account Number:</string>
+    <string name="swift_code_with_colon">SWIFT code:</string>
+    <string name="iban_number_with_colon">IBAN Number:</string>
+    <string name="pin_with_colon">PIN:</string>
+    <string name="branch_address_with_colon">Branch Address:</string>
+    <string name="branch_phone_with_colon">Branch Phone:</string>
+
+    <string name="name_on_card_with_colon">Name on Card:</string>
+    <string name="number_with_colon">Number:</string>
+    <string name="security_code_with_colon">Security Code:</string>
+    <string name="start_date_with_colon">Start Date:</string>
+    <string name="expiration_date_with_colon">Expiration Date:</string>
+
+    <string name="name_with_colon">Name:</string>
+    <string name="country_with_colon">Country:</string>
+    <string name="sex_number_with_colon">Sex:</string>
+    <string name="nationality_with_colon">Nationality:</string>
+    <string name="issuing_authority_with_colon">Issuing Authority:</string>
+    <string name="issued_date_with_colon">Issued Date:</string>
+
+    <!--String used in app introduction-->
+    <string name="zero_screen_tittle">Welcome to BeePass</string>
+    <string name="first_screen_tittle">One Password</string>
+    <string name="second_screen_tittle">Flexible to manage</string>
+    <string name="third_screen_tittle">Data is secured</string>
+    <string name="zero_screen_description">BeePass is password manager to keep your sensitive data.</string>
+    <string name="first_screen_description">No need to remember all your passwords. Just one master password!</string>
+    <string name="second_screen_description">Easy to add and edit necessary fields for categories and credentials.</string>
+    <string name="third_screen_description">Reliable AES cryptography is applied to your credentials. Data is stored on your device.</string>
+
+    <string name="preference_file_key" translatable="false">com.lihacovs.android.beepass.PREFERENCE_FILE_KEY</string>
+</resources>

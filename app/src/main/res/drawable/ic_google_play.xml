@@ -1,0 +1,23 @@
+<!--
+  ~ Copyright (C) 2017. Konstantins Lihacovs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<vector android:height="24dp" android:viewportHeight="289.789"
+    android:viewportWidth="289.789" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#349886" android:pathData="M13.42,13.69c-0.69,2.43 -1.16,5.05 -1.16,8.05v246.36c0,2.95 0.47,5.54 1.14,7.95l138.27,-130.99C151.66,145.05 13.42,13.69 13.42,13.69z"/>
+    <path android:fillColor="#3DB39E" android:pathData="M205.62,93.92L44.19,4.12C37.75,0.21 31.41,-0.79 26.06,0.58l138.85,131.93C164.91,132.51 205.62,93.92 205.62,93.92z"/>
+    <path android:fillColor="#F4B459" android:pathData="M265.14,127.03l-43.09,-23.97l-44.13,41.8l44.95,42.73l41.92,-23.02C285.26,152.91 277.8,134.14 265.14,127.03z"/>
+    <path android:fillColor="#E2574C" android:pathData="M25.65,289.1c5.43,1.52 11.93,0.61 18.53,-3.4l161.93,-88.91L164.65,157.4C164.65,157.4 25.65,289.1 25.65,289.1z"/>
+</vector>
